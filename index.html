@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BorealChain</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Stack+Sans+Headline:wght@200..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=currency_bitcoin" />
+</head>
+<body>
+    <header>
+        <h1><span class="icone material-symbols-outlined">currency_bitcoin</span>oreal Chain</h1>
+        <p>Preços de criptomoedas em tempo real, convertidos para Real (R$)</p>
+    </header>
+    <section class="content">
+        <form class="formulario" method="GET">
+            <input name="search" class="search-bar" type="search" placeholder="Buscar criptomoeda... (ex: bitcoin, ethereum, solana)">
+            <input class="button-buscar" type="submit" value="Buscar">
+        </form>
+    
+        <section class="result">
+            <header>
+                <h2>🏆 Top 10 Criptomoedas</h2>
+                <span>10 resultado(s)</span>
+            </header>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="posicao">#</th>
+                            <th class="moeda">MOEDA</th>
+                            <th class="preco">PREÇO (BRL)</th>
+                            <th class="valor-dia">24H</th>
+                            <th class="market">MARKET CAP</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
